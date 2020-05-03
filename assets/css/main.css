@@ -1,0 +1,43 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('http://deluna.fr/assets/fonts/open-sans-v17-latin-regular.woff2') format('woff2');
+}
+/* open-sans-italic - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'),
+       url('http://deluna.fr/assets/fonts/open-sans-v17-latin-italic.woff2') format('woff2');
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+       url('http://deluna.fr/assets/fonts/open-sans-v17-latin-700.woff2') format('woff2');
+}
+/* open-sans-700italic - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+       url('http://deluna.fr/assets/fonts/open-sans-v17-latin-700italic.woff2') format('woff2');
+}
+* { box-sizing: border-box; }
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 1.50;
+}

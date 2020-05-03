@@ -1,0 +1,44 @@
+nav.central-block,
+footer.excerpt,
+footer.page-article,
+.site-menu,
+.nav-list-footer {
+  display: none;
+}
+header.central-block {
+  text-align: right;
+}
+h1 {
+  text-align: center;
+}
+.site-name a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 110%;
+}
+span.site-description {
+  display: block;
+  font-size: 90%
+}
+/* Author Page */
+img.selfie {
+  float: right;
+  max-width: 400px;
+  width: 40%;
+  height: auto;
+  margin: 0 0 30px 30px;
+  border-radius: 4px;
+}
+/* License page */
+.site-license-logo {
+  float: left;
+  margin: 5px 30px 5px 0;
+}
+/* Generic elements */
+blockquote {
+  margin: 10px;
+  padding: 10px;
+  border-left: 8px solid lightGrey;
+  font-style: italic;
+}

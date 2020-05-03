@@ -1,0 +1,369 @@
+/*
+  Templating
+*/
+.central-block {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0;
+}
+header.central-block {
+  padding: 30px;
+}
+.header-bg-image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #081059;
+  background-image: url("http://deluna.fr/assets/images/banner-ufo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 70%;
+  width: 100%;
+  height: 480px;
+  z-index: -2;
+}
+.header-bg-color {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 480px;
+  background: linear-gradient(to right, #000 0%, #111113 75%, #1b2d50 100%);
+  opacity: 0.72;
+  z-index: -1;
+  box-shadow: 0 2px 13px 12px rgba(58, 32, 28, 0.84);
+}
+footer.central-block {
+  padding: 50px 0;
+  text-align: center;
+}
+article.central-block {
+  padding: 55px 100px;
+  margin-bottom: 50px;
+}
+article.excerpt:first-child,
+article.main-page {
+  border-radius: 4px 4px 0 0;
+}
+article.excerpt:last-child,
+article.main-page {
+  margin-bottom: 0;
+}
+.enumerate {
+  display: inline;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.enumerate > li {
+  display: inline;
+}
+.nav-list-top a {
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+.nav-list-footer {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.nav-list-footer a {
+  padding: 15px 10px;
+  margin: 0;
+}
+.nav-list-footer > li {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-list-footer > li::before {
+  content: "•";
+  font-size: 170%;
+}
+.nav-list-footer > :first-child::before {
+  content: ""
+}
+footer.excerpt,
+footer.page-article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+footer.excerpt .read-me,
+footer.page-article .category {
+  grid-column: 1;
+  grid-row: 2;
+}
+footer.excerpt .pubdate,
+footer.page-article .pubdate {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: right;
+}
+footer.excerpt .tag-list,
+footer.page-article .tag-list {
+  text-align: right;
+  grid-column: 2;
+  grid-row: 1;
+}
+footer.excerpt .tag-list::before,
+footer.page-article .tag-list::before {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  right: 4px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: url("http://deluna.fr/assets/images/icon-tag.svg") no-repeat 0 0;
+  background-size: 14px 14px;
+  opacity: 0.55;
+}
+.page-nav {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/*
+  Author Page Elements
+*/
+img.selfie {
+  float: right;
+  max-width: 400px;
+  width: 40%;
+  height: auto;
+  margin: 0 0 30px 30px;
+  border-radius: 4px;
+}
+.page-author > hr {
+  clear: both;
+  border: none;
+}
+/*
+  Blog Informaton Page Elements
+*/
+.site-license-logo {
+  float: left;
+  margin-top: 5px;
+}
+.site-license-text {
+  border-left: 1px solid #dab191;
+  margin-left: 110px;
+  padding-left: 15px;
+}
+blockquote {
+  font-style: italic;
+  background-color: #f1eae0;
+  margin: 30px 0;
+  padding: 20px;
+  border-left: 8px solid #b79b80;
+}
+/*
+  Site identity settings
+*/
+.site-name {
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  font-size: 180%;
+  font-weight: bold;
+  text-shadow: 0 0 9px #1f170f;
+}
+.site-description {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 95%;
+  font-weight: normal;
+  text-shadow: 0 0 9px #1f170f;
+}
+.post-title {
+  margin-top: 0;
+}
+.post-category-tries,
+.post-category-history {
+  display: none;
+}
+.site-menu {
+  margin: 30px 0 40px;
+  text-align: right;
+  text-shadow: 0 0 3px #100c08;
+}
+/*
+  Site page navigation
+*/
+.page-nav {
+  border-bottom: 1px solid #dab191;
+}
+/*
+  Old article button
+*/
+.page-nav-lnk-older {
+  display: inline-block;
+  border: 1px solid lightGrey;
+  padding: 10px 30px;
+  margin: 0;
+  border-radius: 4px;
+  background-color: #883838;
+  background: linear-gradient(20deg, rgba(136,56,56,1) 0%, rgba(136,56,56,1) 50%, rgb(149, 80, 80) 100%);
+  color: white;
+}
+.page-nav-lnk-older:hover {
+  background: linear-gradient(20deg, rgb(145, 59, 59) 0%, hsla(0, 42%, 40%, 1) 50%, rgb(166, 89, 89) 100%)
+}
+/*
+  Color Scheme
+*/
+/* Text colors */
+body,
+.nav-list-top a:hover,
+a {
+  color: #fddec3;
+}
+article,
+article a:hover,
+.read-me > a {
+  color: #444;
+}
+article a,
+.read-me > a:hover {
+  color: #883838;
+}
+.home-link:hover {
+  color: #f5ba7f;
+}
+.nav-list-top a {
+  color: #ceb6a2;
+}
+/* Area colors */
+body {
+  background-color: #84684B;
+}
+article {
+  background-color: #f5f3f0;
+}
+/* texts sizes and effects */
+.read-me {
+  font-size: 120%;
+  font-weight: bold;
+}
+.nav-list-top {
+  font-size: 100%;
+}
+/*
+  Generic text layout
+*/
+li {
+  margin: 15px 0;
+}
+/*
+  Shadows on main body
+*/
+/* article, */
+.page-nav-lnk-older:hover {
+  box-shadow: 0 2px 8px 1px rgba(58, 32, 28, 0.84);
+}
+/*
+  link decorations
+*/
+a,
+.read-me > a,
+.post-title > a {
+  text-decoration: none;
+}
+article a,
+.enumerate a:hover {
+  text-decoration: underline;
+}
+/*
+  Adjustments for low-res
+*/
+@media screen and (max-width: 970px) {
+  .header-bg-image {
+    height: 300px;
+  }
+  .header-bg-color {
+    background: linear-gradient(to right, #000 0%, #111113 100%);
+    height: 300px;
+  }
+  .site-menu {
+    margin: 20px 0;
+  }
+  article.central-block {
+    padding: 40px;
+  }
+  .nav-list-footer {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 680px) {
+  body {
+    margin: 0;
+  }
+  header.central-block {
+    text-align: center;
+  }
+  .site-description {
+    font-size: 16px;
+  }
+  article.central-block {
+    padding: 40px 15px;
+  }
+  article.excerpt:first-child,
+  article.main-page {
+    border-radius: 0;
+  }
+  article.excerpt {
+    margin-bottom: 0px;
+    border-bottom: 2px dashed #b59e87;
+  }
+  article.excerpt:last-child {
+    border-bottom: none;
+  }
+  .nav-list {
+    display: block;
+  }
+  .nav-list-footer {
+    display: block;
+    justify-content: unset;
+    font-size: 100%;
+  }
+  .nav-list-footer li {
+    display: block;
+    align-items: unset;
+    margin: 0;
+    padding: 15px;
+  }
+  .nav-list-footer > li::before {
+    content: "";
+  }
+  .nav-list-footer a {
+    margin: 0;
+    padding: 20px;
+  }
+  .site-license-text {
+    border-left: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  /* disable shadows */
+  .site-description,
+  .site-name {
+    text-shadow: none;
+  }
+  /* disabled elements */
+  .site-menu,
+  .pubdate-label,
+  .header-bg-image,
+  .header-bg-color,
+  .site-license-logo,
+  footer.excerpt .tag-list,
+  footer.page-article .tag-list,
+  footer.page-article .category {
+    display: none;
+  }
+  img.selfie {
+    margin-left: 10px;
+  }
+}
