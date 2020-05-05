@@ -280,9 +280,6 @@ article a,
   Adjustments for low-res
 */
 @media screen and (max-width: 970px) {
-  body {
-    font-size: 18px;
-  }
   .header-bg-image {
     height: 300px;
   }

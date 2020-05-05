@@ -42,3 +42,17 @@ blockquote {
   border-left: 8px solid lightGrey;
   font-style: italic;
 }
+/* Page break */
+h1,
+h2 {
+  break-after: avoid-page;
+}
+pre,
+blockquote {
+  break-inside: avoid;
+}
+/* Link information */
+p a[href]:after,
+li a[href]:after {
+  content: " (" attr(href) ")";
+}
