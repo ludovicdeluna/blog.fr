@@ -2,17 +2,20 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Ludovic de Luna | Technoblog d’un ovni chez les humains</title><!-- inverse name and title on other pages -->
+  <title>Injection de dépendances : the Ruby way (contribution) | Ludovic de Luna</title>
   <meta name="author" content="Ludovic de Luna">
-  <meta name="description" content="Blog sur mes expérimentations, découvertes et réflexions autour de mon métier (développement web), la technologie et la culture Geek">
+  <meta name="description" content="Contribution au sujet de l’injection de dépendances – le pourquoi de cet article">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="RvFgfi1TwShqsACyTwf4N5w9RFh2trQgnWyYyBcIP9E">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:site" content="@ludovic_deluna">
   <meta property="og:image" content="http://deluna.fr/assets/images/banner-ufo.jpg">
   <meta property="og:site_name" content="Ludovic de Luna : technoblog d’un ovni chez les humains">
-  <meta property="og:title" content="Technoblog d’un ovni chez les humains">
+  <meta property="og:title" content="Injection de dépendances : the Ruby way (contribution)">
+  <meta property="og:description" content="Contribution au sujet de l’injection de dépendances – le pourquoi de cet article">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="http://deluna.fr/">
-  <link rel="canonical" href="http://deluna.fr/">
+  <meta property="og:url" content="http://deluna.fr/infusion-tech/2020/05/15/injection-dependances-the-ruby-way">
+  <meta property="article:published_time" content="2020-05-15T00:00:00+02:00">
+  <link rel="canonical" href="http://deluna.fr/infusion-tech/2020/05/15/injection-dependances-the-ruby-way">
   <link rel="stylesheet" type="text/css" media="all" href="http://deluna.fr/assets/css/main.css">
   <link rel="stylesheet" type="text/css" media="screen" href="http://deluna.fr/assets/css/screen.css">
   <link rel="stylesheet" type="text/css" media="print" href="http://deluna.fr/assets/css/print.css">
@@ -66,7 +69,7 @@ MWNWMXXMWkdkOkOOOOOOOOO0NX0O0NNNNNNNNNNNNXOKNNNNNNNNNNNNNNNNNNNNNNNNNNNWMMMMMMMM
   <i class="header-bg-image" aria-hidden="true"></i><i class="header-bg-color"></i>
   <header class="central-block">
     <span class="site-name"><a class="home-link" href="http://deluna.fr/">Ludovic de Luna</a></span>
-    <h1 class="site-description">Technoblog d’un ovni chez les humains</h1>
+    <span class="site-description">Technoblog d’un ovni chez les humains</span>
     <nav class="site-menu">
       <ul class="enumerate nav-list-top">
         <!-- <li><a href="#">Catégories & tags</a></li> -->
@@ -74,46 +77,24 @@ MWNWMXXMWkdkOkOOOOOOOOO0NX0O0NNNNNNNNNNNNXOKNNNNNNNNNNNNNNNNNNNNNNNNNNNWMMMMMMMM
       </ul>
     </nav>
   </header>
-  <main>
-    <article class="central-block excerpt">
-      <h2 class="post-title">Injection de dépendances : the Ruby way (contribution) <a href="http://deluna.fr/infusion-tech/2020/05/15/injection-dependances-the-ruby-way" title="permalien">🔗</a></h2>
-      <p>
-        J’ai écrit un article pour Synbioz au sujet de l’injection de dépendances
-        en Ruby. S’il est vrai que c’est naturel en Ruby, il faut voir qu’il
-        existe différentes stratégies pour rendre l’injection générique dans une
-        application. Je vous présente ici une des approches.
-      </p>
-      <footer class="excerpt">
-        <span class="read-me"><a href="https://www.synbioz.com/blog/tech/injection-de-d%C3%A9pendances-the-ruby-way" target="_blank">Lire sur le blog Synbioz</a></span>
-        <time class="pubdate" datetime="2020-05-15"><span class="pubdate-label">Publié le </span>15 Mai 2020</time>
-        <ul class="enumerate tag-list">
-          <li>Blog</li>
-        </ul>
-      </footer>
-    </article>
-    <article class="central-block excerpt">
-      <h2 class="post-title"><a href="http://deluna.fr/infusion-tech/2020/05/03/bloguer-en-complement-blog-entreprise">Bloguer en complément d’un blog d’entreprise</a></h2>
-      <p>
-        Comme tout passionné de technologie, je passe une partie de mon temps
-        libre à expérimenter. Le résultat est le plus souvent perdu dans un coin
-        de mon disque dure. J’avais déjà pensé à ouvrir un blog afin de partager
-        et approfondir différents sujets, mais c’était resté à l’état de projet.
-        Mon employeur nous permet d’écrire sur un blog d’entreprise. J’ai ainsi pu
-        me faire une première expérience en rédaction qui vas au-delà de
-        l’écriture plus ou moins formelle en milieu professionnel. Néanmoins, le
-        résultat n’était pas tout à fait ce que j’attendais. D’où une réflexion
-        sur la tenue d’un blog personnel et mon questionnement autour du risque
-        conflictuel de ces deux activités.
-      </p>
-      <footer class="excerpt">
-        <span class="read-me"><a href="http://deluna.fr/infusion-tech/2020/05/03/bloguer-en-complement-blog-entreprise">Lire la suite</a></span>
-        <time class="pubdate" datetime="2020-05-03"><span class="pubdate-label">Publié le </span>3 Mai 2020</time>
-        <ul class="enumerate tag-list">
-          <li>Blog</li>
-        </ul>
-      </footer>
-    </article>
-  </main>
+  <article class="central-block main-page page-article">
+    <h1 class="post-title">Injection de dépendances : the Ruby way (contribution)</h1>
+    <p>
+      J’ai écrit un article pour Synbioz au sujet de l’injection de dépendances
+      en Ruby. S’il est vrai que c’est naturel en Ruby, il faut voir qu’il
+      existe différentes stratégies pour rendre l’injection générique dans une
+      application. Je vous présente ici une des approches.
+    </p>
+    <hr>
+    <a href="https://www.synbioz.com/blog/tech/injection-de-d%C3%A9pendances-the-ruby-way" target="_blank">Lire sur le blog Synbioz</a>
+    <footer class="page-article">
+      <span class="category">Catégorie : Infusion tech</span>
+      <time class="pubdate" datetime="2020-05-15"><span class="pubdate-label">Publié le </span>15 Mai 2020</time>
+      <ul class="enumerate tag-list">
+        <li>Blog</li>
+      </ul>
+    </footer>
+  </article>
   <!-- <nav class="central-block page-nav" role="doc-pagelist">
     <a class="page-nav-lnk-older" href="#">Anciens billets</a>
   </nav> -->
