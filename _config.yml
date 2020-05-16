@@ -1,0 +1,53 @@
+# Generic parameters
+title: Technoblog d’un ovni chez les humains
+author: Ludovic de Luna
+url: "http://deluna.fr"
+lang: fr
+description: >-
+  Blog sur mes expérimentations, découvertes et réflexions autour de mon métier
+  (développement web), la technologie et la culture Geek
+google_check: "RvFgfi1TwShqsACyTwf4N5w9RFh2trQgnWyYyBcIP9E"
+plugins:
+  - jekyll-feed # Activate rss
+
+# Date localisation (see _plugins/localize_date_filter.rb)
+locale: "fr-FR"
+
+# Configure home page
+show_excerpts: true
+
+# Configure aboute me
+twitter_username: ludovic_deluna
+
+# Configure post url
+permalink: pretty
+
+# Buidl option
+strict_front_matter: true
+
+# Default front-matter
+defaults:
+  - values:
+      layout: post
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - LICENCE
+  - README.md
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

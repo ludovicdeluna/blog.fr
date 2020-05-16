@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="central-block excerpt">
+  <h2 class="post-title">{{ page.title | escape }}</h2>
+  {{ content }}
+  <footer class="excerpt">
+    <span class="read-me"><a href="{{ page.contribution.url | absolute_url }}" target="_blank">Lire sur {{ page.contribution.site }}</a></span>
+    <time class="pubdate" datetime="{{ page.date | date: "%Y-%m-%d" }}"><span class="pubdate-label">Publié le </span>{{ page.date | localize_date: "long" }}</time>
+    {%- if page.tags.size > 0 -%}
+    <ul class="enumerate tag-list">
+      {%- for tag in page.tags -%}
+      <li>{{ tag }}</li>
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
+  </footer>
+</article>

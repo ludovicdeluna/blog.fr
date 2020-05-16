@@ -1,3 +1,7 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
 /*
   Templating
 */
@@ -15,7 +19,7 @@ header.central-block {
   top: 0;
   left: 0;
   background-color: #081059;
-  background-image: url("http://deluna.fr/assets/images/banner-ufo.jpg");
+  background-image: url("{{ 'assets/images/banner-ufo.jpg' | absolute_url }}");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 70%;
@@ -117,9 +121,17 @@ footer.page-article .tag-list::before {
   content: "";
   width: 15px;
   height: 15px;
-  background: url("http://deluna.fr/assets/images/icon-tag.svg") no-repeat 0 0;
+  background: url("{{ 'assets/images/icon-tag.svg' | absolute_url }}") no-repeat 0 0;
   background-size: 14px 14px;
   opacity: 0.55;
+}
+.read-me-external {
+  display: block;
+  text-align: center;
+  padding: 50px;
+}
+.read-me-external > a {
+  padding: 50px 30px;
 }
 .page-nav {
   text-align: center;
@@ -158,6 +170,10 @@ blockquote {
   margin: 30px 0;
   padding: 20px;
   border-left: 8px solid #b79b80;
+}
+blockquote > p {
+  padding: 0;
+  margin: 0;
 }
 /*
   Site identity settings
@@ -223,11 +239,13 @@ a {
 }
 article,
 article a:hover,
-.read-me > a {
+.read-me > a,
+.read-me-external > a:hover {
   color: #444;
 }
 article a,
-.read-me > a:hover {
+.read-me > a:hover,
+.read-me-external > a {
   color: #883838;
 }
 .home-link:hover {
@@ -241,10 +259,12 @@ body {
   background-color: #84684B;
 }
 article {
-  background-color: #f5f3f0;
+  // background-color: #f5f3f0;
+  background-color: #fbfaf9;
 }
 /* texts sizes and effects */
-.read-me {
+.read-me,
+.read-me-external {
   font-size: 120%;
   font-weight: bold;
 }
@@ -269,6 +289,7 @@ li {
 */
 a,
 .read-me > a,
+.read-me-external > a,
 .post-title > a {
   text-decoration: none;
 }

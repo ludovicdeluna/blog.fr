@@ -1,0 +1,14 @@
+---
+layout: default
+---
+  <main>
+    {%- if site.posts.size > 0 -%}
+    {%- for post in site.posts %}
+    {%- if post.layout == "short" -%}
+    {%- include article_short.html %}
+    {%- else -%}
+    {%- include article_excerpt.html %}
+    {%- endif -%}
+    {%- endfor -%}
+    {%- endif %}
+  </main>
