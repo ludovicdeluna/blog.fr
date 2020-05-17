@@ -128,10 +128,11 @@ footer.page-article .tag-list::before {
 .read-me-external {
   display: block;
   text-align: center;
-  padding: 50px;
+  // padding: 50px;
 }
 .read-me-external > a {
-  padding: 50px 30px;
+  display: inline-block;
+  padding: 50px 50px;
 }
 .page-nav {
   text-align: center;
