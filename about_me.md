@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Auteur du blog
-description: Informations sur l’auteur du blog, contact et liens vers mes sphères numériques
+description: Ce blog technique est rédigé par Ludovic de Luna, développeur web Ruby / Elixir / Go. Voici les contacts et liens vers mes sphères numériques
 permalink: auteur/
 ---
 
-<img class="selfie" src="{{ 'assets/images/selfie.jpg' | absolute_url }}" alt="photo de moi" width="400" height="452">
+<img class="selfie" src="{{ 'assets/images/selfie.jpg' | absolute_url }}" alt="Ludovic de Luna" width="400" height="452">
 
 Bienvenue à vous, visiteur :)
 

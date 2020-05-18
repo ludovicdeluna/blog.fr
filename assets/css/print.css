@@ -16,10 +16,12 @@ h1 {
   color: black;
   font-weight: 700;
   font-size: 110%;
+  text-align: right;
 }
-span.site-description {
+.site-description {
   display: block;
-  font-size: 90%
+  font-size: 90%;
+  text-align: right;
 }
 /* Author Page */
 img.selfie {
