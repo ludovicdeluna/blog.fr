@@ -28,7 +28,9 @@
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   {% endif -%}
   <link rel="alternate" type="application/atom+xml" title="Ludovic de Luna | Feed" href="{{ 'feed.xml' | absolute_url }}" />
+  {% if page.layout != "home" -%}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% endif -%}
   <link rel="stylesheet" type="text/css" media="all" href="{{ '/assets/css/main.css' | absolute_url }}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/screen.css' | absolute_url }}">
   <link rel="stylesheet" type="text/css" media="print" href="{{ '/assets/css/print.css' | absolute_url }}">
