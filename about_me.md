@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Auteur du blog
-description: Ce blog technique est rédigé par Ludovic de Luna, développeur web Ruby / Elixir / Go. Voici les contacts et liens vers mes sphères numériques
+description: Biographie, contacts et liens vers mes sphères numériques
 permalink: auteur/
 ---
 
@@ -17,10 +17,10 @@ vivant. C’est aussi par le Web que l’économie a vécu l’avènement des St
 
 A force de provoquer les opportunités, j’en ai fait mon métier. Aujourd’hui, je
 développe des applications web pour la société Synbioz. Vous verrez
-régulièrement passer des billets sur les langages que j’utilise (Ruby / Elixir)
-ou expérimente. Du côté de mes outils, cela fait un peu plus de 10 ans que Linux
-est mon système d’exploitation principal. J’édite mon code sous Atom / Vim et
-j’utilise la console pour tout le reste. J’occupe une fraction de mon temps
+régulièrement passer des billets sur les langages que j’utilise (Ruby / Elixir /
+Go) ou expérimente. Du côté de mes outils, cela fait un peu plus de 10 ans que
+Linux est mon système d’exploitation principal. J’édite mon code sous Atom / Vim
+et j’utilise la console pour tout le reste. J’occupe une fraction de mon temps
 libre avec des projets en Blender / Inkscape / Gimp, car j’aime bien travailler
 aussi l’aspect visuel.
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Á propos du blog
-description: Informations légales sur le blog, conditions d’utilisation et vie privée
+description: Informations légales, conditions d’utilisation et vie privée
 permalink: a-propos-du-blog/
 ---
 

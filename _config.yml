@@ -4,8 +4,9 @@ author: Ludovic de Luna
 url: "http://deluna.fr"
 lang: fr
 description: >-
-  Blog tech sur mes expérimentations, découvertes et réflexions autour de mon
-  métier (développement web), la technologie et la culture Geek
+  Blog technique par Ludovic de Luna : réflexions sur le métier de développeur
+  web, mes langages (Ruby, Elixir, Go), expérimentations et la culture Geek
+
 google_check: "RvFgfi1TwShqsACyTwf4N5w9RFh2trQgnWyYyBcIP9E"
 plugins:
   - jekyll-feed # Activate rss
