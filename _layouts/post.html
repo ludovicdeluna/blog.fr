@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-  <article class="central-block main-page page-article">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-    {{ content }}
-    <footer class="page-article">
-      <span class="category">Catégorie : Infusion tech</span>
-      <time class="pubdate" datetime="{{ page.date | date: "%Y-%m-%d" }}"><span class="pubdate-label">Publié le </span>{{ page.date | localize_date: "long" }}</time>
-      {%- if page.tags.size > 0 -%}
-      <ul class="enumerate tag-list">
-        {%- for tag in page.tags -%}
-        <li>{{ tag }}</li>
-        {%- endfor -%}
-      </ul>
-      {%- endif -%}
-    </footer>
-  </article>
+<article class="central-block main-page page-article">
+<h1 class="post-title">{{ page.title | escape }}</h1>
+{{ content }}
+<footer class="page-article">
+  <span class="category">Catégorie : Infusion tech</span>
+  <time class="pubdate" datetime="{{ page.date | date: "%Y-%m-%d" }}"><span class="pubdate-label">Publié le </span>{{ page.date | localize_date: "long" }}</time>
+  {%- if page.tags.size > 0 %}
+  <ul class="enumerate tag-list">
+    {%- for tag in page.tags %}
+    <li>{{ tag }}</li>
+    {% endfor -%}
+  </ul>
+  {% endif -%}
+</footer>
+</article>

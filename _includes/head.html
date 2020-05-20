@@ -13,9 +13,12 @@
   <meta name="author" content="{{ site.author }}">
   <meta name="description" content="{{ general_description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {%- if page.layout == "home" -%}
+  {%- if page.layout == "home" %}
   <meta name="google-site-verification" content="{{ site.google_check }}">
-  {%- endif -%}
+  {%- endif %}
+  {%- if page.layout == "short" %}
+  <meta name="robots" content="noindex">
+  {%- endif %}
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:site" content="@{{ site.twitter_username }}">
   <meta property="og:image" content="{{ '/assets/images/banner-ufo.jpg' | absolute_url }}">

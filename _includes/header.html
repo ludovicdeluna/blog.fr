@@ -1,16 +1,16 @@
-  <i class="header-bg-image" aria-hidden="true"></i><i class="header-bg-color"></i>
-  <header class="central-block">
-    {% if page.layout == "home" -%}
-    <h1 class="site-name"><a class="home-link" href="{{ site.url }}" rel="home">{{ site.author }}</a></h1>
-    <h2 class="site-description">{{ site.title }}</h2>
-    {%- else -%}
-    <span class="site-name"><a class="home-link" href="{{ site.url }}" rel="home">{{ site.author }}</a></span>
-    <span class="site-description">{{ site.title }}</span>
-    {%- endif %}
-    <nav class="site-menu">
-      <ul class="enumerate nav-list-top">
-        <!-- <li><a href="#">Catégories & tags</a></li> -->
-        <li><a href="{{ 'auteur' | absolute_url }}">Auteur</a></li>
-      </ul>
-    </nav>
-  </header>
+<i class="header-bg-image" aria-hidden="true"></i><i class="header-bg-color"></i>
+<header class="central-block">
+  {% if page.layout == "home" -%}
+  <h1 class="site-name"><a class="home-link" href="{{ site.url }}" rel="home">{{ site.author }}</a></h1>
+  <h2 class="site-description">{{ site.title }}</h2>
+  {%- else -%}
+  <span class="site-name"><a class="home-link" href="{{ site.url }}" rel="home">{{ site.author }}</a></span>
+  <span class="site-description">{{ site.title }}</span>
+  {%- endif %}
+  <nav class="site-menu">
+    <ul class="enumerate nav-list-top">
+      <!-- <li><a href="#">Catégories & tags</a></li> -->
+      <li><a href="{{ 'auteur' | absolute_url }}">Auteur</a></li>
+    </ul>
+  </nav>
+</header>

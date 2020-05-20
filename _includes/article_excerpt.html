@@ -1,17 +1,17 @@
 <article class="central-block excerpt">
-  <h2 class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a></h2>
-  {%- if site.show_excerpts -%}
-  {{ post.excerpt }}
-  <footer class="excerpt">
-    <span class="read-me"><a href="{{ post.url | absolute_url }}">Lire la suite</a></span>
-    <time class="pubdate" datetime="{{ post.date | date: "%Y-%m-%d" }}"><span class="pubdate-label">Publié le </span>{{ post.date | localize_date: "long" }}</time>
-    {%- if post.tags.size > 0 -%}
-    <ul class="enumerate tag-list">
-      {%- for tag in post.tags -%}
-      <li>{{ tag }}</li>
-      {%- endfor -%}
-    </ul>
-    {%- endif -%}
-  </footer>
+<h2 class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a></h2>
+{%- if site.show_excerpts %}
+{{ post.excerpt -}}
+<footer class="excerpt">
+  <span class="read-me"><a href="{{ post.url | absolute_url }}">Lire la suite</a></span>
+  <time class="pubdate" datetime="{{ post.date | date: "%Y-%m-%d" }}"><span class="pubdate-label">Publié le </span>{{ post.date | localize_date: "long" }}</time>
+  {%- if post.tags.size > 0 %}
+  <ul class="enumerate tag-list">
+    {%- for tag in post.tags %}
+    <li>{{ tag }}</li>
+    {%- endfor %}
+  </ul>
   {%- endif %}
+</footer>
+{%- endif %}
 </article>
