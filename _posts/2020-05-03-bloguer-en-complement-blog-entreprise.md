@@ -127,10 +127,10 @@ J’en suis arrivé à cette conclusion :
 > « l’amorce ».
 
 Ce qui m’amène à croire que les deux activités ne sont pas hermétiques et
-pourraient bénéficier l’une de l’autre. Du coup, j’ai profité de mes «
-congés covid-19 » pour mettre en place ce blog, un peu en mode rush sans
+pourraient bénéficier l’une de l’autre. J’ai donc profité de mes
+« congés covid-19 » pour mettre en place ce blog, un peu en mode _rush_ sans
 trop prendre le temps de finaliser proprement l’aspect technique. L’idée
-étant de démarrer un MVP (Minimal Viable Product) et de voir si je peux
+étant de démarrer un MVP (_Minimal Viable Product_) et de voir si je peux
 tenir sur un ou deux mois afin de confirmer mon sentiment.
 
 Si c’est le cas, je structurerais mieux la partie technique et
