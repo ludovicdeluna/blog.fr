@@ -42,6 +42,7 @@ defaults:
 exclude:
   - LICENCE
   - README.md
+  - doc/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

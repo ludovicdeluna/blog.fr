@@ -1,0 +1,11 @@
+https://guides.rubyonrails.org/caching_with_rails.html#fragment-caching
+
+https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works
+
+https://api.rubyonrails.org/classes/ActiveRecord/Integration.html#method-i-cache_key
+
+https://www.honeybadger.io/blog/ruby-rails-view-caching/
+
+https://blog.appsignal.com/2018/03/20/fragment-caching-in-rails.html
+
+https://api.rubyonrails.org/classes/ActionView/Helpers/CacheHelper.html#method-i-cache
