@@ -43,6 +43,7 @@ exclude:
   - LICENCE
   - README.md
   - doc/
+  - bin/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
