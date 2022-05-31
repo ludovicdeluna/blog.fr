@@ -11,7 +11,7 @@ Hello, je suis Ludovic.
 
 J’opère dans le monde de l’internet depuis 2000 en privilégiant souvent la start-up pour son non-conformisme.
 
-Mon rôle est d’aider le business -- ceux qui ont la fibre entrepreneuriale -- à transformer un projet technique en réalité auprès de leurs clients.
+Mon rôle est de booster le business des entreprises en transformant leur projet technique en réalité auprès de leurs clients.
 
 Depuis peu, je suis également cofondateur de  [Heytipi](http://www.heytipi.com){:target="blank"}, un service résolument humain visant à resserrer les liens familiaux dans notre société moderne.
 
