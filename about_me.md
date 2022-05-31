@@ -7,30 +7,17 @@ permalink: auteur/
 
 <img class="selfie" src="{{ 'assets/images/selfie.jpg' | absolute_url }}" alt="Ludovic de Luna" width="400" height="452">
 
-Bienvenue à vous, visiteur :)
+Hello, je suis Ludovic.
 
-Je m’appel Ludovic et je suis passionné par ce que les technologies ont à nous
-offrir. Éternel optimiste, j’aime à voir les changements positifs qu’elles
-opèrent dans notre société et notre culture. L’un de mes domaines de
-prédilection est le Web, car il nous a transformé. C’est un domaine vibrant et
-vivant. C’est aussi par le Web que l’économie a vécu l’avènement des Startups.
+J’opère dans le monde de l’internet depuis 2000 en privilégiant souvent la start-up pour son non-conformisme.
 
-A force de provoquer les opportunités, j’en ai fait mon métier. Aujourd’hui, je
-développe des applications web pour la société Synbioz. Vous verrez
-régulièrement passer des billets sur les langages que j’utilise (Ruby / Elixir /
-Go) ou expérimente. Du côté de mes outils, cela fait un peu plus de 10 ans que
-Linux est mon système d’exploitation principal. J’édite mon code sous Atom / Vim
-et j’utilise la console pour tout le reste. J’occupe une fraction de mon temps
-libre avec des projets en Blender / Inkscape / Gimp, car j’aime bien travailler
-aussi l’aspect visuel.
+Mon rôle est d’aider le business -- ceux qui ont la fibre entrepreneuriale -- à transformer un projet technique en réalité auprès de leurs clients.
 
-J’avoue avoir beaucoup de chance dans la vie, mais j’ai connu aussi l’envers du
-décor des SSII (ESN) et de l’entreprenariat. Après avoir sillonné Paris pendant
-18 ans, j’ai basculé en région Nantaise avec une formule « 100 % télétravail ».
-Les plages sont à quelques kilomètres et la vie connaît un autre rythme.
+Depuis peu, je suis également cofondateur de  [Heytipi](http://www.heytipi.com){:target="blank"}, un service résolument humain visant à resserrer les liens familiaux dans notre société moderne.
 
-Merci d’avoir lu cette page et n’hésitez pas à prendre contact. J’adore échanger
-et découvrir de nouvelles choses.
+Après avoir sillonné Paris pendant 18 ans, j’ai basculé en région Nantaise via une formule « 100 % télétravail ».
+
+N’hésitez pas à prendre contact sur l’un des réseaux sociaux.
 
 - Twitter : [@ludovic_deluna](https://twitter.com/ludovic_deluna)
 - Github : [ludovicdeluna](https://github.com/ludovicdeluna)
