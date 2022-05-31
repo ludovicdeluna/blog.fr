@@ -49,8 +49,8 @@ afin de ne pas consommer inutilement la bande passante de ce site.
 Ce blog contient du matériel dont je ne suis pas l’auteur. Il est crédité là où
 il est utilisé mais une partie est générique au site :
 
-- Bannière du site : œuvre intitulée « [Vaisseau spatial volant dans la galaxie][1] ».
-  Auteur : [Vectorpouch][2].
+- Bannière du site : œuvre intitulée « [Vue Aérienne Du Concept D'espace De Travail Rétro][1] ».
+  Auteur : [Rawpixel][2].
   Gracieusement mise à disposition par le site [fr.freepik.com](fr.freepik.com).
 - Les icônes utilisées dans les pages proviennent de [FontAwesome][3],
   sous licence [Creative Commons Attribution 4.0 International (CC BY 4.0)][4].
@@ -76,8 +76,8 @@ n’intègre aucun service extérieur, ne fait aucune forme de traçage ou de
 profilage et ne diffuse pas de contenu publicitaire. Cependant, l’hébergeur peut
 avoir recours à un cookie technique pour les besoins de son infrastructure.
 
-[1]: https://fr.freepik.com/vecteurs-libre/vaisseau-spatial-volant-dans-galaxie_6690920.htm
-[2]: https://fr.freepik.com/vectorpouch
+[1]: https://fr.freepik.com/photos-gratuite/vue-aerienne-du-concept-espace-travail-retro-machine-ecrire-espace-copie_26677061.htm
+[2]: https://fr.freepik.com/auteur/rawpixel-com
 [3]: https://fontawesome.com/
 [4]: https://creativecommons.org/licenses/by/4.0/
 [5]: https://icon-icons.com
