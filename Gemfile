@@ -19,6 +19,9 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.6"
 end
 
+gem 'webrick', '~> 1.7'
+
+gem 'rouge', '~> 3.28'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
