@@ -17,8 +17,13 @@ Depuis peu, je suis également cofondateur de  [Heytipi](http://www.heytipi.com)
 
 Après avoir sillonné Paris pendant 18 ans, j’ai basculé en région Nantaise via une formule « 100 % télétravail ».
 
-N’hésitez pas à prendre contact sur l’un des réseaux sociaux.
+N’hésitez pas à prendre contact sur l’un des réseaux sociaux :
 
-- Twitter : [@ludovic_deluna](https://twitter.com/ludovic_deluna)
-- Github : [ludovicdeluna](https://github.com/ludovicdeluna)
-- E-mail : [ludovic@deluna.fr](mailto:ludovic@deluna.fr)
+<div class="about-contact">
+{{"
+[Twitter](https://twitter.com/ludovic_deluna)
+[Github](https://github.com/ludovicdeluna)
+[Linked-in](https://www.linkedin.com/in/ludovicdeluna/)
+[E-mail](mailto:ludovic@deluna.fr)
+" | markdownify }}
+</div>
