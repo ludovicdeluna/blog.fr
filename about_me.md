@@ -27,3 +27,5 @@ N’hésitez pas à prendre contact sur l’un des réseaux sociaux :
 [E-mail](mailto:ludovic@deluna.fr)
 " | markdownify }}
 </div>
+
+_Pssst... [Vous êtes recruteur ?]({% link recruteurs.md %})_
