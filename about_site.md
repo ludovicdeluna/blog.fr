@@ -51,7 +51,7 @@ il est utilisé mais une partie est générique au site :
 
 - Bannière du site : œuvre intitulée « [Vue Aérienne Du Concept D'espace De Travail Rétro][1] ».
   Auteur : [Rawpixel][2].
-  Gracieusement mise à disposition par le site [fr.freepik.com](fr.freepik.com).
+  Gracieusement mise à disposition par le site [fr.freepik.com](https://fr.freepik.com).
 - Les icônes utilisées dans les pages proviennent de [FontAwesome][3],
   sous licence [Creative Commons Attribution 4.0 International (CC BY 4.0)][4].
 - L’icône du blog (_favicon_) est issue du site [icon-icons.com][5].
